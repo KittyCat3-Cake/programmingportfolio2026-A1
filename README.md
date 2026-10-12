@@ -9,38 +9,37 @@
 [Link to Source Code](https://github.com/KittyCat3-Cake/programmingportfolio2026-A1/tree/main/src/Calculator)
 
 ## Overview
-OOP Calculator using Processing for graphics and Java for computer Programming.
+OOP Calculator using Processing for graphics and Java for computer programming. User can do simple operations like addition, subtraction, multiplication, and division.
 
 ## Current Status
 Working:
-- [A feature you have tested]
-- [Another feature you have tested]
+- Can do addition and subtraction with large numbers.
+- Can work with both positive and negative numbers.
 
 Still in progress:
-- [A requirement you are finishing]
+- The exponent function is still in progress. This means numbers cannot be raised to a power yet.
 
 ## How to Run
 Built with Processing.
-Processing version: [Your version]
+Processing version: 4.0.1
 
-[After the project files are uploaded, identify the
-project folder and main .pde file to open and run.]
+After the project files are uploaded, identify the
+project folder and main .pde file to open and run.
 
 ## Controls
 Mouse:
-[Explain how to use the buttons.]
+Use the calculator buttons to input numbers and the four standard operators like add, subtract, multiply, and divide.
 
 Keyboard:
-[List keys that currently work and what they do.
-Identify planned controls as not yet implemented.]
+All 10 numbers can be inputed using the keyboard keys. The operators cannot be activated using the keyboard keys yet. This still has to be implemented.
 
 ## Project Files
-[Identify the main sketch and other tabs or assets
-you will upload.]
+The main sketch is the Calculator.pde. There is also a Button class, which is Button.pde.
 
 ## Testing
-[Record one test: actions, expected result,
-and actual result.]
+Actions: 3+2=
+Expected Result: 5
+Actual Result: 5
 
 ## Next Step
-[Name the specific behavior you will build or fix next.]
+I need to make sure the operators will show up on the display when you press the corresponding keys on the keyboard.
