@@ -213,6 +213,42 @@ void keyPressed() {
   } else if (key == '0' || keyCode == 99) {
     println("You hit 0 " + keyCode );
     handleEvent('0', true);
+  } else if (key == '÷' || keyCode == 99) {
+    println("You hit ÷ " + keyCode );
+    handleEvent('÷', true);
+  } else if (key == '×' || keyCode == 99) {
+    println("You hit × " + keyCode );
+    handleEvent('×', true);
+  } else if (key == '-' || keyCode == 99) {
+    println("You hit - " + keyCode );
+    handleEvent('-', true);
+  } else if (key == '+' || keyCode == 99) {
+    println("You hit + " + keyCode );
+    handleEvent('+', true);
+  } else if (key == '.' || keyCode == 99) {
+    println("You hit . " + keyCode );
+    handleEvent('.', true);
+  } else if (key == '=' || keyCode == 99) {
+    println("You hit = " + keyCode );
+    handleEvent('=', true);
+  } else if (key == ',' || keyCode == 99) {
+    println("You hit , " + keyCode );
+    handleEvent(',', true);
+  } else if (key == '±' || keyCode == 99) {
+    println("You hit ± " + keyCode );
+    handleEvent('±', true);
+  } else if (key == '%' || keyCode == 99) {
+    println("You hit % " + keyCode );
+    handleEvent('%', true);
+  } else if (key == '!' || keyCode == 99) {
+    println("You hit ! " + keyCode );
+    handleEvent('!', true);
+  } else if (key == 'C' || keyCode == 99) {
+    println("You hit C " + keyCode );
+    handleEvent('C', true);
+  } else if (key == '^' || keyCode == 99) {
+    println("You hit ^ " + keyCode );
+    handleEvent('^', true);
   }
 }
 
